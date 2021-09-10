@@ -1,0 +1,20 @@
+/**
+ * @Filename	: test01_06.java
+ * @Description	: 문제에 맞는 수식을 작성하여 원하는 값을 도출하여 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class Exam06 {
+
+	public static void main(String[] args) {
+		int K = 1500;
+		int N = 5;
+		int M = 5000;
+		
+		if (K * N > 5000) {
+			int plus = K * N - M;
+			System.out.println("동수가 부모님께 받아야 하는 돈은 " + plus + "원 입니다.");
+		}
+
+	}
+
+}

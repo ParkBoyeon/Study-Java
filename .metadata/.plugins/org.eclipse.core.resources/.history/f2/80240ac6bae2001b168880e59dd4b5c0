@@ -1,0 +1,26 @@
+
+public class test01_02 {
+
+	public static void main(String[] args) {
+		String grade = "100";
+		
+		switch ((int)Integer.parseInt(grade) / 10) {
+		case 9 || 10:
+			System.out.println("A");
+			break;
+		case 8:
+			System.out.println("B");
+			break;
+		case 7:
+			System.out.println("C");
+			break;
+		case 6:
+			System.out.println("D");
+			break;
+		default:
+			System.out.println("F");
+		} 
+
+	}
+
+}

@@ -1,0 +1,13 @@
+/**
+ * @Filename	: test01_07.java
+ * @Description	: 문제에 맞는 수식을 작성하여 원하는 값을 도출하여 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_07 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

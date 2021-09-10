@@ -1,0 +1,20 @@
+/**
+ * @Filename	: test01_06.java
+ * @Description	: 
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_06 {
+
+	public static void main(String[] args) {
+		int k = 1500;
+		int n = 5;
+		int m = 5000;
+		
+		if (k * n > 5000) {
+			int plus = k * n - 5000;
+			System.out.println("동수가 부모님께 받아야 하는 돈은 " + plus + "원 입니다.");
+		}
+
+	}
+
+}

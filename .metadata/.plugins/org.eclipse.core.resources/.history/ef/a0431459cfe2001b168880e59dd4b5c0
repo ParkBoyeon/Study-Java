@@ -1,0 +1,28 @@
+/**
+ * @Filename	: test01_07.java
+ * @Description	: 문제에 맞는 수식을 작성하여 원하는 값을 도출하여 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_07 {
+
+	public static void main(String[] args) {
+		int[][] exam = {{92, 85, 71}, {84, 72, 64}, {88, 96, 82}};
+		int sum1 = 0;
+		int sum2 = 0;
+		int sum3 = 0;
+		int sum_avg = 0;
+		
+		for (int i=0; i<3; i++) {
+				sum1 += exam[0][i];
+				sum2 += exam[1][i];
+				sum3 += exam[2][i];
+			
+			
+		}
+		
+		
+		
+		System.out.println("학생별 평균의 총 점" + sum1/3 + sum2/3 + sum3/3);
+	}
+
+}

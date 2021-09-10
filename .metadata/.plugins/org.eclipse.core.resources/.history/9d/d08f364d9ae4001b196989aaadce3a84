@@ -1,0 +1,22 @@
+/**
+ * @Filename	: Exam05.java
+ * @Description	: 배열에서 조건에 맞는 데이터의 개수를 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class Exam05 {
+
+	public static void main(String[] args) {
+		int[] notebook_arr = { 977750, 1649000, 1738950, 549000, 1419000, 479000, 2098000, 519000, 2449000, 1498000 };
+		int sum = 0;
+		
+		for (int i=0; i<notebook_arr.length; i++) {
+			if (notebook_arr[i]<=1700000 && notebook_arr[i]>=1400000) {
+				sum++;
+			}
+		}
+		
+		System.out.println("구입할 수 있는 노트북은" + sum + "개 입니다.");
+
+	}
+
+}

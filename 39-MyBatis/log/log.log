@@ -1,0 +1,14 @@
+2021-04-19 18:04:18,372 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2021-04-19 18:04:18,448 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 18:04:18,450 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 18:04:18,450 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 18:04:18,451 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-19 18:04:18,728 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2021-04-19 18:04:20,301 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 1622694817.
+2021-04-19 18:04:20,304 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60b85ba1]
+2021-04-19 18:04:20,312 DEBUG [DepartmentMapper.get_department_list] ==>  Preparing: SELECT deptno, dname, loc FROM department WHERE loc=?; 
+2021-04-19 18:04:20,473 DEBUG [DepartmentMapper.get_department_list] ==> Parameters: 공학관(String)
+2021-04-19 18:04:20,611 DEBUG [DepartmentMapper.get_department_list] <==      Total: 5
+2021-04-19 18:04:20,618 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60b85ba1]
+2021-04-19 18:04:20,621 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@60b85ba1]
+2021-04-19 18:04:20,622 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 1622694817 to pool.

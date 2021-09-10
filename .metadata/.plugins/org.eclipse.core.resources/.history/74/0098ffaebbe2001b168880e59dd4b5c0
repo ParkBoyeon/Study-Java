@@ -1,0 +1,20 @@
+
+public class test01_03 {
+
+	public static void main(String[] args) {
+		int number = 150;
+		int sum;
+		
+		for (int i=1; i<number; i++) {
+			if (i / 3 == 0) {
+				sum += i;
+			}
+		}
+		
+		System.out.println("3의 배수에 대한 총 합 : " + sum);
+		
+		
+
+	}
+
+}

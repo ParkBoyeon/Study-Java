@@ -1,0 +1,24 @@
+/**
+ * @Filename	: test01_03.java
+ * @Description	: 100~200 사이의 숫자 에서 3의 배수의 총 합을 구한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_03 {
+
+	public static void main(String[] args) {
+		int number = 150;
+		int sum = 0;
+		
+		for (int i=1; i<=number; i++) {
+			if (i % 3 == 0) {
+				sum += i;
+			}
+		}
+		
+		System.out.println("3의 배수에 대한 총 합 : " + sum);
+		
+		
+
+	}
+
+}

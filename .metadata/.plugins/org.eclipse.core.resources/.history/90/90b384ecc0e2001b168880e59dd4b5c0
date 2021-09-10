@@ -1,0 +1,21 @@
+/**
+ * @Filename	: test01_07.java
+ * @Description	: 문제에 맞는 수식을 작성하여 원하는 값을 도출하여 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_07 {
+
+	public static void main(String[] args) {
+		int[][] exam = {{92, 85, 71}, {84, 72, 64}, {88, 96, 82}};
+		int sum = 0;
+		
+		for (int i=0; i<exam.length; i++) {
+			for (int j=0; j<exam[i].length; j++) {
+				sum += exam[i][j];
+			}
+		}
+		
+		System.out.println("학생별 평균의 총 점" + );
+	}
+
+}

@@ -1,0 +1,31 @@
+/**
+ * @Filename	: test01_04.java
+ * @Description	: 배열을 오름차순으로 정렬하고 조건에 맞게 출력한다. 
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class Exam04 {
+
+	public static void main(String[] args) {
+		int[] notebook_arr = { 977750, 1649000, 1738950, 549000, 1419000, 479000, 2098000, 519000, 2449000, 1498000 };
+		
+		for (int i=0; i<notebook_arr.length-1; i++) {
+			for (int j=i; j<notebook_arr.length; j++) {
+				if (notebook_arr[i] > notebook_arr[j]) {
+					int a = notebook_arr[i];
+					notebook_arr[i] = notebook_arr[j];
+					notebook_arr[j] = a;
+				}
+			}
+		}
+		for(int k=0; k<notebook_arr.length; k++) {
+			if(k < notebook_arr.length-1) {
+				System.out.print(notebook_arr[k] + ", ");
+			} else {
+				System.out.print(notebook_arr[k]);
+			}
+			
+		}
+		
+	}
+
+}

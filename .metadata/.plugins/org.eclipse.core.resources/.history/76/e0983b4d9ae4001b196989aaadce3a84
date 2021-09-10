@@ -1,0 +1,33 @@
+/**
+ * @Filename	: Exam01.java
+ * @Description	: "당신은 30세 남자입니다." 라는 문자열을 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class Exam01 {
+
+	public static void main(String[] args) {
+		String ssn = "9203231";
+		int nowYear = 2021;
+		
+		int age = Integer.parseInt(ssn.substring(0, 2));
+		int gen = Integer.parseInt(ssn.substring(6, 7));
+		
+		if (gen == 2 || gen == 1) {
+			age += 1900;
+		} else {
+			age += 2000;
+		}
+		
+		int nowage = nowYear - age + 1;
+		
+		if(gen == 1 || gen == 3) {
+			System.out.println("당신은 " + nowage + "세 남자입니다.");
+		} else {
+			System.out.println("당신은 " + nowage + "세 여자입니다.");
+		}
+		
+		
+
+	}
+
+}

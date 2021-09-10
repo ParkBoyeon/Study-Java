@@ -1,0 +1,33 @@
+/**
+ * @Filename	: test01_02.java
+ * @Description	: 0~100 사이의 시험 점수를 A, B, C, D, F 점수로 나누어 출력한다.
+ * @Author		: 박보연 (bo3893@gmail.com)
+ */
+public class test01_02 {
+
+	public static void main(String[] args) {
+		int grade = 100;
+		
+		switch ((int)grade / 10) {
+		case 10:
+			System.out.println("A");
+			break;
+		case 9:
+			System.out.println("A");
+			break;
+		case 8:
+			System.out.println("B");
+			break;
+		case 7:
+			System.out.println("C");
+			break;
+		case 6:
+			System.out.println("D");
+			break;
+		default:
+			System.out.println("F");
+		} 
+
+	}
+
+}

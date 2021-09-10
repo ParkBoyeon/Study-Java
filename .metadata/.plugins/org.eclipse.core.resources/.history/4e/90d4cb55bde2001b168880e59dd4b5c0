@@ -1,0 +1,9 @@
+
+public class test01_04 {
+
+	public static void main(String[] args) {
+		int[] notebook_arr = { 977750, 1649000, 1738950, 549000, 1419000, 479000, 2098000, 519000, 2449000, 1498000 };
+
+	}
+
+}

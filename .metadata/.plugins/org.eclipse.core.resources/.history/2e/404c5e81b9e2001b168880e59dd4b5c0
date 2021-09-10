@@ -1,0 +1,21 @@
+
+public class test01_01 {
+
+	public static void main(String[] args) {
+		String ssn = "9203231";
+		int nowYear = 2021;
+		
+		int age = nowYear - Integer.parseInt(ssn.substring(0, 2)) + 1;
+		int gen = Integer.parseInt(ssn.substring(6, 7));
+		
+		if(gen == 1) {
+			System.out.println("당신은 " + age + "세 남자입니다.");
+		} else {
+			System.out.println("당신은 " + age + "세 여자입니다.");
+		}
+		
+		
+
+	}
+
+}

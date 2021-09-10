@@ -1,0 +1,26 @@
+2021-04-20 23:02:47,468 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2021-04-20 23:02:47,479 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 23:02:47,480 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 23:02:47,480 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 23:02:47,480 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2021-04-20 23:02:47,546 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2021-04-20 23:02:47,809 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 972843820.
+2021-04-20 23:02:47,809 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 23:02:47,812 DEBUG [ProfessorMapper.selectProfessorList] ==>  Preparing: SELECT profno, name, userid, position, sal, hiredate, comm, deptno FROM professor; 
+2021-04-20 23:02:47,831 DEBUG [ProfessorMapper.selectProfessorList] ==> Parameters: 
+2021-04-20 23:02:47,856 DEBUG [ProfessorMapper.selectProfessorList] <==      Total: 12
+2021-04-20 23:02:47,858 DEBUG [Main05_p] 조회결과[0] >> Professor [profno=9901, name=김도훈, userid=capool, position=교수, sal=500, hiredate=1982-06-12 00:00:00, comm=20, deptno=101]
+2021-04-20 23:02:47,858 DEBUG [Main05_p] 조회결과[1] >> Professor [profno=9902, name=이재우, userid=sweat413, position=조교수, sal=320, hiredate=1995-04-12 00:00:00, comm=0, deptno=201]
+2021-04-20 23:02:47,858 DEBUG [Main05_p] 조회결과[2] >> Professor [profno=9903, name=성연희, userid=pascal, position=조교수, sal=200, hiredate=1993-03-17 00:00:00, comm=15, deptno=101]
+2021-04-20 23:02:47,858 DEBUG [Main05_p] 조회결과[3] >> Professor [profno=9904, name=염일웅, userid=blue77, position=전임강사, sal=240, hiredate=1998-10-11 00:00:00, comm=0, deptno=102]
+2021-04-20 23:02:47,859 DEBUG [Main05_p] 조회결과[4] >> Professor [profno=9905, name=권혁일, userid=refresh, position=교수, sal=450, hiredate=1986-02-11 00:00:00, comm=25, deptno=102]
+2021-04-20 23:02:47,859 DEBUG [Main05_p] 조회결과[5] >> Professor [profno=9906, name=이만식, userid=pocari, position=부교수, sal=420, hiredate=1988-07-11 00:00:00, comm=0, deptno=101]
+2021-04-20 23:02:47,859 DEBUG [Main05_p] 조회결과[6] >> Professor [profno=9907, name=전은지, userid=totoro, position=전임강사, sal=210, hiredate=2001-05-11 00:00:00, comm=0, deptno=101]
+2021-04-20 23:02:47,859 DEBUG [Main05_p] 조회결과[7] >> Professor [profno=9908, name=남은혁, userid=bird13, position=부교수, sal=400, hiredate=1990-10-18 00:00:00, comm=17, deptno=202]
+2021-04-20 23:02:47,859 DEBUG [Main05_p] 조회결과[8] >> Professor [profno=9920, name=박보연, userid=boyeon, position=학생, sal=100, hiredate=2021-04-20 00:00:00, comm=100, deptno=201]
+2021-04-20 23:02:47,860 DEBUG [Main05_p] 조회결과[9] >> Professor [profno=9921, name=뚬땜이, userid=ttum, position=교수, sal=550, hiredate=2021-04-14 14:16:29, comm=0, deptno=202]
+2021-04-20 23:02:47,860 DEBUG [Main05_p] 조회결과[10] >> Professor [profno=9924, name=박보연, userid=boyeon, position=교수, sal=100, hiredate=2021-04-20 00:00:00, comm=100, deptno=101]
+2021-04-20 23:02:47,860 DEBUG [Main05_p] 조회결과[11] >> Professor [profno=9932, name=박보연, userid=boyeon, position=학생, sal=100, hiredate=2021-04-20 00:00:00, comm=100, deptno=201]
+2021-04-20 23:02:47,860 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 23:02:47,861 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@39fc6b2c]
+2021-04-20 23:02:47,861 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 972843820 to pool.
